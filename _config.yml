@@ -15,20 +15,20 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
-title                    : "1CG2CG3CG"
+locale                   : "ko-KR"                                                       #EDIT HERE
+title                    : "1CG2CG3CG"                                                       #EDIT HERE
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "H. C. G."
 description              : "An amazing website."
 url                      : "https://1cg2cg3cg.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"    ## EDIT HERE
 baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"                                                                      ## EDIT HERE
-repository               : ""# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : # ""# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : false #200                                                                      ## EDIT HERE
+words_per_minute         : 200                                                                      ## EDIT HERE
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
