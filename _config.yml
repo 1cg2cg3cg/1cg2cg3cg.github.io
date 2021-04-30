@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "H. C. G."
 description              : "An amazing website."
 url                      : "https://1cg2cg3cg.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"    ## EDIT HERE
-baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"                                                                      ## EDIT HERE
+baseurl                  : "" # the subpath of your site, e.g. "/blog"                                                                      ## EDIT HERE
 repository               : # ""# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
