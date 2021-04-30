@@ -282,7 +282,7 @@ defaults:
       share: true
       related: true
       
-  # _pages
+  # _pages                                                       #EDIT HERE
   - scope:
       path: "_pages"
       type: pages
