@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"                         #EDIT HERE
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"                         #EDIT HERE
 
 # Site Settings
 locale                   : "ko-KR"                                                       #EDIT HERE
@@ -64,7 +64,7 @@ google:
   search_engine_id       : e9a5fba04208acc08  # YOUR_SEARCH_ENGINE_ID                                        #EDIT HERE
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : <meta name="google-site-verification" content="JLfAm0xyyOY591zmuw0LLXcFVxIy4UdQpER_QXc4jEs" />
+google_site_verification : "JLfAm0xyyOY591zmuw0LLXcFVxIy4UdQpER_QXc4jEs"
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
