@@ -1,0 +1,17 @@
+---
+date: 2021-04-10
+title: "Day 10 : Longest Increasing Path in a Matrix"
+excerpt: "April Leetcoding Challenge 2021 - Day 10"
+
+tags: Leetcode April_Leetcode_Challenge_2021
+
+#categories: blog
+#toc: true
+#toc_sticky: true
+---
+
+<script src="https://gist.github.com/1cg2cg3cg/3019ace10c2e947f7d99f8193b120421.js"></script>
+
+[problem link](https://leetcode.com/explore/challenge/card/april-leetcoding-challenge-2021/594/week-2-april-8th-april-14th/3703/)
+
+[colab link](https://colab.research.google.com/drive/1SYhVJL-C-PQ9IY899ARQNAnb8gWfMd0W#scrollTo=Xo2ZZTLF5miP)
