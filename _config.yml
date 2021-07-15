@@ -108,7 +108,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"                                                        #EDIT HERE
+#       url: "https://twitter.com/"                                                        #EDIT HERE
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -117,7 +117,7 @@ author:
       url: "https://github.com/1cg2cg3cg/"  # "https://github.com/"                                                        #EDIT HERE
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"                                                        #EDIT HERE
+#       url: "https://instagram.com/"                                                        #EDIT HERE
 
 # Site Footer
 footer:
