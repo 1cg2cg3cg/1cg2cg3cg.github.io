@@ -5,32 +5,26 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"                         #EDIT HERE
+theme                    : "minimal-mistakes-jekyll"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"                                                       #EDIT HERE
-title                    : "1CG2CG3CG"                                                       #EDIT HERE
+locale                   : "en-US"
+title                    : "Minimal Mistakes"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "H. C. G."
-description              : "An amazing website."
-url                      : "https://1cg2cg3cg.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"    ## EDIT HERE
-baseurl                  : "" # the subpath of your site, e.g. "/blog"                                                                      ## EDIT HERE
-repository               : # ""# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+subtitle                 : "Development Test Site"
+name                     : "Your Name"
+description              : "Minimal Mistakes theme test."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/test"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+logo                     : "/assets/images/apple-touch-icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "Custom Title" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200                                                                      ## EDIT HERE
+words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "utterances", "giscus", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -41,7 +35,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "github-dark" # "github-light"(default), "github-dark"                                                                      ## EDIT HERE
+    theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
@@ -53,107 +47,84 @@ comments:
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
-reCaptcha:
-  siteKey                :
-  secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : true  # true, false (default)                                                      #EDIT HERE
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : "lunr"
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : e9a5fba04208acc08  # YOUR_SEARCH_ENGINE_ID                                        #EDIT HERE
-  instant_search         : # false (default), true
+  application_id         : "QB6HVGBSBA"
+  index_name             : "dev_minimal-mistakes"
+  search_only_api_key    : "9d5014e5bbc77372547bce778dfa5663"
+  powered_by             : true
+
 # SEO Related
-google_site_verification : "JLfAm0xyyOY591zmuw0LLXcFVxIy4UdQpER_QXc4jEs"
+google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
-naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "mmistakes"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/bio-photo.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - https://twitter.com/
+    - https://github.com/
 
 # Analytics
 analytics:
-  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"                     #EDIT HERE
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : UA-196263237-1                                                   #EDIT HERE
-    anonymize_ip         : # true, false (default)
+    tracking_id          :
 
 
 # Site Author
 author:
-  name             : "1CG"                                                                                     #EDIT HERE
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**amazzzzzzing**"                                                        #EDIT HERE
-  location         : "ko-KR"                                                                                   #EDIT HERE
-  email            :
+  name             : "Your Name"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:kinhjy@gmail.com" # "mailto:your.name@email.com"                                                         #EDIT HERE
-    - label: "Website"
+    - label: "Your Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://your-site.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-#       url: "https://twitter.com/"                                                        #EDIT HERE
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/1cg2cg3cg/"  # "https://github.com/"                                                        #EDIT HERE
+      url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-#       url: "https://instagram.com/"                                                        #EDIT HERE
+      url: "https://instagram.com/"
+
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/1cg2cg3cg"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/"
 
 
 # Reading Files
 include:
   - .htaccess
-  - /_pages
-  - _posts
   - _pages
 exclude:
   - "*.sublime-project"
@@ -176,18 +147,19 @@ exclude:
   - log
   - node_modules
   - package.json
-  - package-lock.json
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+# Liquid
+strict_front_matter: true
+liquid:
+  error_mode: strict
 
 # Conversion
 markdown: kramdown
@@ -212,14 +184,14 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -269,11 +241,24 @@ tag_archive:
 
 
 # HTML Compression
-# - https://jch.penibelst.de/
+# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+  pets:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -285,22 +270,33 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
-      comments: true
+      read_time: true
       share: true
       related: true
-      sidebar : true          # 0715
-      
-  # _pages                                                       #EDIT HERE
+  # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
-
-
-    # _portfolio
+  # _recipes
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _pets
+  - scope:
+      path: ""
+      type: pets
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -308,9 +304,3 @@ defaults:
       layout: single
       author_profile: false
       share: true
-
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-    
