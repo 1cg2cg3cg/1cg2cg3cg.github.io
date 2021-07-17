@@ -6,8 +6,8 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
-  - title: "Leetcoding Challenge"
-    url: /categories/leetcode
+#   - title: "Leetcoding Challenge"
+#     url: /categories/leetcode
 #     url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
