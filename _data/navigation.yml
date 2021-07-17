@@ -2,12 +2,12 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Leetcoding Challenge"
+    url: /categories/leetcode
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
-#   - title: "Leetcoding Challenge"
-#     url: /categories/leetcode
 #     url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
