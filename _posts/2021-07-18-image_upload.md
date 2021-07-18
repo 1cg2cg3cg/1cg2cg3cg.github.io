@@ -58,10 +58,11 @@ pull 했을 때 이미지까지 딸려올 것 같아서, 앞으로는 image 저�
 
 
 ### 더 편한 방법
+
 검색에서 못봤는데 더 편한 방법으로(새로 추가된 것 같다) 파일을 드래그 앤 드롭하면, 자동으로 추가된다.
 
 ![drag_and_drop](https://user-images.githubusercontent.com/78636903/126053524-e05c071a-70a9-4322-b722-3d571c3304d7.png)
 
-![attach](https://user-images.githubusercontent.com/78636903/126053530-20230def-d4a5-4b31-a4bf-e107027bc618.png)
+![result](https://user-images.githubusercontent.com/78636903/126053595-553fad02-4d00-4af1-8cd8-fc53ccca0eeb.png)
 
 사진이 다시 필요 없다면, 이 방법이 제일 편한 것 같다.
